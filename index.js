@@ -194,7 +194,7 @@ async function startBot() {
     }
     if (connection === "open") {
       reconnecting = false;
-      console.log("🟢 FROXY BOT MINI V3 connected.");
+      console.log(" ●FROXY BOT MINI V3 connected.");
       try {
         // Send confirmation to the bot account's own chat.
         await sock.sendMessage(sock.user.id, { text: connectedMsg() });
